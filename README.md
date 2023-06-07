@@ -12,7 +12,7 @@ A e-commerce book website for all the Readers
 
 ## DEMO VIDEO
 
-https://www.loom.com/embed/a02850df8f7342d58e9c0379a9209ffc
+[Demo Video - BookFactory](https://www.loom.com/share/a02850df8f7342d58e9c0379a9209ffc)
 
 ---
 
