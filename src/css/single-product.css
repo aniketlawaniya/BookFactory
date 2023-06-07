@@ -1,0 +1,46 @@
+.single-product-cont{
+   
+    width: 100%;
+    max-width: 80%;
+    height: auto;
+    margin: 7rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.single-product-img-cont{
+    width: 40%;
+    height: 31rem;
+}
+
+.single-product-details{
+    background-color: #205295;
+    color: white;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+.single-card-body{
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #205295;
+}
+.card-header{
+    color: white;
+}
+
+
+.card-desc {
+    width: 54ch;
+    margin-top: 10px;
+    color: white;
+}

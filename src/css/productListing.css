@@ -1,0 +1,156 @@
+
+.product-container{
+    display: flex;
+    margin: 7rem 0 1rem 0;
+}
+
+
+.filter-container {
+    color: #0f172a;
+    width: 305px;
+    padding: 1.4rem;
+    position: sticky;
+    top: 80px;
+    height: 100%;
+    overflow-y: auto;
+    border-right: 1px solid black;
+}
+
+.filter-header{
+    display: flex;
+    justify-content: space-between;
+}
+.filter-header button{
+    color: black;
+}
+
+.filter-item{
+    margin: 1rem 0;
+}
+.btn{
+    padding: 0;
+    margin: 5px 0;
+    width: auto;
+}
+
+
+.price-range{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.slider{
+    width: 100%;
+}
+
+.filter-category{
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.filter-check{
+    width: 15px;
+    height: 15px;
+    display: inline;
+}
+
+
+.product-items-container{
+    width: 100%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-items-container{
+    color: black;
+}
+
+.product-items{
+    display: grid;
+    justify-content: space-around;
+   
+    grid-template-columns: repeat(auto-fill, minmax(230px, 250px));
+    grid-gap: 2rem;       
+}
+
+.card-product{
+    width: 100%;
+    box-shadow: var(--shadow-cart);
+    height: 460px;
+}
+
+.card-product:hover{
+    box-shadow: var(--shadow-product-hover);
+}
+
+.card-product-body{
+    flex-direction: column;
+}
+
+
+.card-product-img-cont{
+    width: 100%;
+    height: 17rem;
+    position: relative;
+}
+
+.offer-percentage {
+    background-color: antiquewhite;
+    padding: 0px 5px;
+    position: absolute;
+    color: black;
+    font-size: 12px;
+    top: 14px;
+    left: 12px;
+    font-weight: bold;
+}
+.card-header h4{
+    color: white;
+}
+.price-container{
+    color: white;
+}
+
+.price-container h5{
+    margin:0;
+    color: white;
+    font-size: 0.83em;
+}
+.btn {
+    margin: 0;
+    width: 100%;
+    height: fit-content;
+    padding: 7px;
+}
+.product-btn{
+    color: white;
+    border-top: 2px solid ;
+    border-radius: 3px;
+    background-color: #29ADEB;
+}
+
+.product-btn:hover{
+    border-top: 2px solid #082F49;
+    border-left: 2px solid #082F49;
+    border-right: 2px solid #082F49;
+    letter-spacing: 3px;
+    background-color: #2badec;
+}
+
+.screen-division{
+    color: black;
+    font-size: 2rem;
+    width: 3rem;
+    height: 3rem;
+    display: none;
+}
+

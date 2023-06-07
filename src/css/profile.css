@@ -1,0 +1,33 @@
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.profile-container {
+    border: 1px solid var(--line-color);
+    padding: 15px;
+    height: fit-content;
+    
+}
+.user-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.profile-logo-div {
+  justify-content: flex-end;
+  flex-grow: 1;
+  color: white;
+}
+
+.user-details {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #404040;
+}

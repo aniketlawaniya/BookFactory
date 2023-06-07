@@ -1,0 +1,173 @@
+
+
+.cart-container{
+    padding: 10px;
+    width: 100%;
+    max-width: 75%;
+    margin: 7rem auto;
+    height: auto;
+    grid-gap: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cart-items-container{
+    width: 50%;
+    margin-right: 20px;
+}
+.cart-items-container h1{
+    color: black;
+}
+.cart-items-container button{
+    color: black;
+}
+.cart-items-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.cart-item{
+   
+    width: 100%;
+    height: 251px;
+    margin: 0 0 1rem 0;
+}
+
+.card-body{
+    padding: 0.5rem;
+}
+.cart-body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.card-img-cont {
+    width: 18rem;
+    height: 10rem;
+}
+.cart-img-cont {
+    width: 10rem;
+}
+
+.img-responsive{
+    max-inline-size: 100%;
+    width: 100%;
+    object-fit:cover;
+    object-position:center;
+}
+
+
+.card-header h4{
+    color: var(--text-color);
+}
+.card-header h4 span{
+    color: gray;
+}
+
+.quantity-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 0.3rem;
+}
+
+.quantity-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   margin: 0 5px;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.quantity-input span{
+    font-size: 1.3rem;
+}
+
+.quantity-btn{
+    background-color: transparent;
+    color: var(--text-color);
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 1.5rem;
+    cursor: pointer;
+}
+
+
+
+.btn{
+    margin: 0;
+    width: 100%;
+    height: fit-content;
+    padding: 7px;
+    border-radius: 1px;
+}
+
+.btn-icon {
+    width: 1rem;
+    height: 1rem;
+}
+
+.cart-btn{
+    color: white;
+    border: 2px solid #29ADEA;
+    border-radius: 3px;
+    background-color: #29ADEA;
+}
+.cart-btn:hover{
+    border: 2px solid black;
+    background-color: #29ADEA;
+}
+
+
+.price-details{
+    padding: 1rem;
+    width: 50%;
+    background-color: var(--card-bg-color);
+    color: var(--text-color);
+    align-self: flex-start;
+    border-radius: 4px;
+    box-shadow: var(--shadow-cart);
+    position: sticky;
+    top: 120px;
+    margin: 0 auto;
+}
+
+.divider-line {
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+
+.charges-amt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.checkout{
+    position: sticky;
+    top: 120px;
+    align-self: flex-start;
+    padding: 1rem;
+    width: 50%;
+    background-color: var(--card-bg-color);
+    border-radius: 4px;
+    box-shadow: var(--shadow-cart);
+}
+
+.checkout p{
+    color: var(--text-color);
+}
+
+.order-btn{
+    background-color:#0e89cf;
+}

@@ -1,0 +1,186 @@
+@import url(./common.css);
+
+.navbar-landing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10rem;
+    padding: 0.5rem;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color:#205295;
+}
+
+.logo-div {
+    width: fit-content;
+    height: 90px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+}
+.logo-div h1{
+    color: white;
+    margin: 20px;
+}
+.icon-cont{
+    color: white;
+}
+
+.link{
+    color: var(--text-color);
+}
+
+.img-responsive{
+    width: 100%;
+    height: 100%;
+}
+
+.logo{
+    width: 100%;
+    height: 80px;
+    cursor: pointer;
+}
+
+.navbar-cont{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    max-width: 1310px;
+    margin: 8rem auto;
+    height: auto;
+}
+
+.main{
+    margin: 0 0 2rem 0;
+    background: url(../assets/images/book_main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: var(--shadow);
+    color: white;
+    border-radius: 5px;
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.introduction{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: large;
+    margin-left: 3rem;
+    margin-top: 36%;
+
+}
+.doc-para{
+    font-weight: bold;
+}
+
+.primary-btn{
+    width: 100%;
+    color: white;
+    text-transform: uppercase;
+}
+
+.primary-btn:hover{
+    background-color:#bae6fd;
+    color: #042f2e;  
+}
+
+.main-btn{
+    display: inline-block;
+    padding: 1rem;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-top: 1rem;
+    transition: 0.3s;
+}
+
+
+
+
+.products{
+    height: 60vh;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.product{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    cursor: pointer;
+    
+}
+.product img{
+    height: 500px;
+    width: 400px;
+}
+.product h3{
+    color: black;
+}
+
+.product:hover{
+    transform: scale(1.01);
+    transition: all 0.5s;
+}
+
+.fiction{
+   
+    width: 100%;
+}
+
+.fiction:hover{
+    box-shadow: var(--shadow-cart);
+}
+
+.non-fiction{
+    
+    width: 100%;
+}
+
+.non-fiction:hover{
+    box-shadow: var(--shadow-cart);
+}
+.finance{
+    
+    width: 100%;
+}
+.finance:hover{
+    box-shadow: var(--shadow-cart);
+}
+
+
+.footer{
+    background-color: rgb(156 156 158);;
+    height: auto;
+    width: 100%;
+    padding: 1rem;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    color: white;
+    text-align: center;
+}
+

@@ -1,0 +1,49 @@
+.form-container{
+    width: 100%;
+    max-width: 25%;
+    margin: 7rem auto;
+    height: auto;
+}
+
+.form-container h1{
+    color: black;
+}
+
+
+.checkbox-input{
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(1.5);
+  padding: 10px;
+  display: inline;
+}
+
+.input-label-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.inputs-title{
+    margin-left: 0.5rem;
+    display: inline;
+}
+
+.formBtn{
+    margin: 5px 0;
+    background-color: #205295;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 3px 0px;
+}
+
+.formBtn:hover{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5(ease-in);
+    background-color: cornflowerblue;
+}
